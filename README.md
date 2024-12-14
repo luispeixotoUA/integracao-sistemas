@@ -19,3 +19,6 @@ Cada cliente é responsável por comunicar com um sistema diferente, utilizando 
    - Mais detalhes no ReadMe.
 
 ---
+
+## Trabalho Realizado por:
+- **Luís Peixoto 2402741**
