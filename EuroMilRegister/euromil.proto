@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package euromil;
+
+// Serviço principal
+service Euromil {
+  rpc RegisterEuroMil (RegisterRequest) returns (RegisterReply);
+}
+
+// Mensagem de requisição
+message RegisterRequest {
+  string key = 1;
+  string checkid = 2;
+}
+
+// Mensagem de resposta
+message RegisterReply {
+  string message = 1;
+}
