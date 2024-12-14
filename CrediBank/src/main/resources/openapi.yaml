@@ -1,0 +1,77 @@
+openapi: 3.0.0
+info:
+  title: CrediBank API
+  description: API para obter cheques digitais do sistema CrediBank.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Servidor local de desenvolvimento
+paths:
+  /get-check:
+    get:
+      summary: Obter cheque digital (mock)
+      description: Retorna um cheque digital simulado.
+      parameters:
+        - name: accountId
+          in: query
+          description: ID da conta de crédito (16 dígitos)
+          required: true
+          schema:
+            type: string
+            example: "1234567890123456"
+        - name: value
+          in: query
+          description: Valor a debitar
+          required: true
+          schema:
+            type: integer
+            example: 100
+      responses:
+        "200":
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    format: date-time
+                    example: "2024-12-14T10:30:00"
+                  checkID:
+                    type: string
+                    example: "1234567890123456"
+  /api/get-check:
+    get:
+      summary: Obter cheque digital (real)
+      description: Retorna um cheque digital obtido do endpoint real.
+      parameters:
+        - name: accountId
+          in: query
+          description: ID da conta de crédito (16 dígitos)
+          required: true
+          schema:
+            type: string
+            example: "1234567890123456"
+        - name: value
+          in: query
+          description: Valor a debitar
+          required: true
+          schema:
+            type: integer
+            example: 100
+      responses:
+        "200":
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    format: date-time
+                    example: "2024-12-14T10:30:00"
+                  checkID:
+                    type: string
+                    example: "1234567890123456"
