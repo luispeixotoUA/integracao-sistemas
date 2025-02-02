@@ -107,8 +107,5 @@ Resultado do registo: Aposta registada com sucesso!
 Pedido recebido: key=1,2,3,4,5+6,7, checkid=1234567890123456
 ```
 
-
----
-
-## Trabalho Realizado por:
-- **Luís Peixoto 2402741**
+## 👥 Autor
+- **Luís Peixoto** - *2402741*

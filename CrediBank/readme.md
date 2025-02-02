@@ -93,3 +93,6 @@ src/
 │       ├── application.properties    # Configurações Spring Boot
 │       ├── openapi.yaml              # Documentação Open Api
 ```
+
+## 👥 Autor
+- **Luís Peixoto** - *2402741*

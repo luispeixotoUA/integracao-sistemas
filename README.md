@@ -18,7 +18,13 @@ Cada cliente é responsável por comunicar com um sistema diferente, utilizando 
    - Inclui um servidor de testes (mock) para validação local.
    - Mais detalhes no ReadMe.
 
+3. **EuroMil (Next.js)**
+   - Uma aplicação web para seleção de números e registo de apostas no Euromilhões.
+   - Integração com os sistemas CrediBank e EuroMilRegister.
+   - Mais detalhes no ReadMe.
+
+
 ---
 
-## Trabalho Realizado por:
-- **Luís Peixoto 2402741**
+## 👥 Autor
+- **Luís Peixoto** - *2402741*
