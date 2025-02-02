@@ -32,10 +32,10 @@ Este é um sistema integrado que permite realizar apostas no EuroMil. O projeto 
 ### Logs
 Logs detalhados de todas as operações:
 - CrediBank API
-![CrediBank API Logs](docs/images/credibank.png)
+![CrediBank API Logs](./docs/images/credibank.png)
 
 - EuroMilRegister gRPC
-![EuroMil gRPC Logs](docs/images/euromil.png)
+![EuroMil gRPC Logs](./docs/images/euromil.png)
 
 
 ## 🔧 Tecnologias Utilizadas
